@@ -1,0 +1,13 @@
+.ligth_point {
+    position: fixed;
+    inset: 0;
+    transform: translate(-51.2rem, -51.2rem);
+    width: 102.4rem;
+    height: 102.4rem;
+    border: 1px;
+    border-radius: 50%;
+    background: radial-gradient(60rem circle,
+            rgba(29, 78, 216, 0.15),
+            transparent 80%);
+    z-index: -1;
+}

@@ -1,0 +1,92 @@
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.8rem;
+    padding: 1rem;
+    background-color: #ffffff02;
+    border-radius: 2rem;
+    border-top: #ffffff00 1px solid;
+    opacity: 0.8;
+    margin-top: 3rem;
+}
+
+.card img {
+    max-width: 15rem;
+    min-width: 10rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 0 0.5rem 0 rgba(255, 255, 255, 0.089);
+}
+
+.card>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.card p {
+    margin: 0;
+    margin-top: 1rem;
+    word-spacing: 0;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: var(--title-clr);
+    font-weight: 500;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    width: fit-content;
+}
+
+.card:hover {
+    background-color: #ffffff09;
+    border-top: #ffffff13 1px solid;
+    box-shadow: 0 1rem 0.5rem 0rem rgba(0, 0, 0, 0.129);
+    opacity: 1;
+}
+
+.card:hover h3 {
+    color: var(--hover);
+}
+
+.card:hover svg {
+    transform: translate(0.4rem, -0.4rem);
+}
+
+.card svg {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    transition: 0.1s;
+}
+
+.card h4 {
+    color: var(--text-clr);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.tool_tag {
+    margin-top: 1.5rem;
+    width: fit-content;
+    padding: 0.4rem 0.8rem;
+    background-color: #20494d9d;
+    color: var(--hover);
+    font-size: 1.2rem;
+    border-radius: 99rem;
+    text-shadow: 0 0 0.2rem rgba(100, 242, 255, 0.599);
+}
+
+.tools_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media(min-width: 40rem) {
+    .card {
+        flex-direction: row;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+}
