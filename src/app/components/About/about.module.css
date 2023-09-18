@@ -1,0 +1,20 @@
+.margin {
+    margin-bottom: 1rem;
+}
+
+.about a {
+    display: inline-block;
+    color: var(--hover);
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.about a:hover {
+    opacity: 1;
+}
+
+@media(min-width: 64rem) {
+    .margin {
+        margin-bottom: 6rem;
+    }
+}

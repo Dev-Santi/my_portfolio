@@ -1,12 +1,12 @@
 import style from "./header.module.css";
 
-const Description = () => {
+function Description() {
   return (
     <p className={style.description}>
-      ¡Hola! este es mi portafolio como desarrollador Full Stack y estudiante de
-      ingeniería en sistemas.
+      ¡Bienvenido a mi portafolio web! <br /> Aquí encontrarás información sobre
+      mí y mis proyectos.
     </p>
   );
-};
+}
 
 export default Description;

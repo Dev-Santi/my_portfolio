@@ -15,6 +15,7 @@ html {
   background-color: var(--main-bg);
   color: #fff;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -40,8 +41,25 @@ p {
 }
 
 span.special {
-  color: #fff;
+  color: #ffffffdd;
   font-weight: 500;
+}
+
+button {
+  font-family: inherit;
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  word-spacing: 0.2rem;
+  color: var(--hover);
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 1;
 }
 
 h2,
@@ -57,7 +75,7 @@ h3 {
 }
 
 .sections_title {
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 2.5rem;
   font-size: 1.8rem;
 }
@@ -71,5 +89,14 @@ h3 {
 @media(min-width: 64rem) {
   body {
     padding: 7.4rem 10rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sections_title {
+    display: none;
   }
 }

@@ -1,31 +1,52 @@
 import Special from "./Special";
+import style from "./about.module.css";
 
-const About = () => {
+function About() {
   return (
-    <section>
+    <section className={style.margin + " " + style.about}>
       <h2 className='sections_title'>Sobre mí</h2>
       <p>
-        Back in 2012, I decided to try my hand at creating custom Tumblr themes
-        and tumbled head first into the rabbit hole of coding and web
-        development. <Special>Fast-forward to today</Special>, and I’ve had the
-        privilege of building software for an advertising agency, a start-up, a
-        student-led design studio, and a huge corporation.
+        Soy un apasionado estudiante y desarrollador de sofware con la ambición
+        de superarse tanto a nivel profesional como personal.
       </p>
       <p>
+        Mi experiencia desarrollando aplicaciones web ha sido principalmente en
+        el area del frontend, pero estoy capacitado para trabajar tanto del lado
+        del cliente como del servidor.
+      </p>
+      <p>
+        Habiendo obtenido el título de{" "}
+        <Special>Bachiller en Administracion de Empresas</Special> en{" "}
+        <a href='https://www.utu.edu.uy/node/1426' target='_blank'>
+          UTU - Villa Muñoz
+        </a>
+        , me interesé por el desarrollo de software, y a comienzos de 2022
+        inicié la carrera de <Special>desarrollador Full Stack</Special> en la
+        academia{" "}
+        <a href='https://www.coderhouse.com.uy/nosotros' target='_blank'>
+          CoderHouse
+        </a>
+        , en la cual aprendí a utilizar lenguajes y herramientas tales como{" "}
         <Special>
-          My main focus these days is building products and leading projects for
-          our clients at Upstatement
+          HTML, CSS, SASS, React (NextJs), NodeJs, Express y MongoDB
         </Special>
-        . In my free time I've also released an online video course that covers
-        everything you need to know to build a web app with the Spotify API.
+        .
       </p>
       <p>
-        When I’m not at the computer, I’m usually rock climbing, hanging out
-        with my wife and two cats, or running around Hyrule searching for Korok
-        seeds K o r o k s e e d s .
+        Actualmente, me encuentro cursando la carrera de{" "}
+        <Special>ingeniería en sistemas</Special> en la{" "}
+        <a href='https://fi.ort.edu.uy/ingenieria-en-sistemas' target='_blank'>
+          Universidad ORT
+        </a>
+        , al mismo tiempo que continúo fortaleciendo mis habilidades en el
+        desarrollo de aplicaciones web mediante la realización de proyectos.
+      </p>
+      <p>
+        Ante cualquier consulta, no dudes en contactarme a través de mis redes
+        sociales.
       </p>
     </section>
   );
-};
+}
 
 export default About;

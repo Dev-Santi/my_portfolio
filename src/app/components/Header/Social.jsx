@@ -3,10 +3,11 @@ import {
   BsInstagram,
   BsGithub,
   BsLinkedin,
-  BsFillEnvelopePlusFill,
+  BsFillEnvelopeAtFill,
+  BsWhatsapp,
 } from "react-icons/bs";
 
-const Social = () => {
+function Social() {
   return (
     <div className={style.social}>
       <a href='https://github.com/Dev-Santi' target='_blank'>
@@ -22,10 +23,13 @@ const Social = () => {
         <BsLinkedin />
       </a>
       <a href='mailto:bauzalarrosasantiago@gmail.com' target='_blank'>
-        <BsFillEnvelopePlusFill id={style.mail_icon} />
+        <BsFillEnvelopeAtFill id={style.mail_icon} />
+      </a>
+      <a href='https://wa.me/+59897111899' target='_blank'>
+        <BsWhatsapp />
       </a>
     </div>
   );
-};
+}
 
 export default Social;

@@ -2,7 +2,7 @@ import style from "./proyects.module.css";
 import ToolTag from "./ToolTag";
 import { BsArrowUpRight } from "react-icons/bs";
 
-const Card = ({ title, category, description, img, alt, tools, link }) => {
+function Card({ title, category, description, img, alt, tools, link }) {
   return (
     <a href={link} target='_blank'>
       <div className={style.card}>
@@ -25,6 +25,6 @@ const Card = ({ title, category, description, img, alt, tools, link }) => {
       </div>
     </a>
   );
-};
+}
 
 export default Card;

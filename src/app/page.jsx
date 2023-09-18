@@ -6,10 +6,14 @@ import Proyects from "./components/Proyects";
 export default function Home() {
   return (
     <main>
-      <LigthPoint />
-      <Header />
-      <About />
-      <Proyects />
+      <div>
+        <LigthPoint />
+        <Header />
+      </div>
+      <div>
+        <About />
+        <Proyects />
+      </div>
     </main>
   );
 }
