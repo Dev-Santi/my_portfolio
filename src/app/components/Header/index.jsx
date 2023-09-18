@@ -9,8 +9,8 @@ function Header() {
   return (
     <header className={style.header}>
       <div>
-        <Title>Santiago Larrosa</Title>
-        <SubTitle>Desarrollador Frontend</SubTitle>
+        <Title />
+        <SubTitle />
         <Description />
         <Indices />
       </div>

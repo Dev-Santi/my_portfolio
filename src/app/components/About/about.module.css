@@ -1,4 +1,9 @@
-.margin {
+.special {
+    color: var(--text-special-clr);
+    font-weight: 500;
+}
+
+.about {
     margin-bottom: 1rem;
 }
 
@@ -14,7 +19,7 @@
 }
 
 @media(min-width: 64rem) {
-    .margin {
+    .about {
         margin-bottom: 6rem;
     }
 }

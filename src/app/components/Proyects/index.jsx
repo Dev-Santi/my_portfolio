@@ -1,11 +1,11 @@
 import Card from "./Card";
-import proyects from "./proyects";
+import Title from "./Title";
+import proyects from "../../../../public/proyects/proyects";
 
-//Card needs: title, category, description, img, alt, tools
 function Proyects() {
   return (
     <section>
-      <h2 className='sections_title'>Proyectos</h2>
+      <Title />
       {proyects.map((proyect) => {
         return (
           <Card

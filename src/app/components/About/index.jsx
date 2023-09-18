@@ -3,7 +3,7 @@ import style from "./about.module.css";
 
 function About() {
   return (
-    <section className={style.margin + " " + style.about}>
+    <section className={style.about}>
       <h2 className='sections_title'>Sobre mí</h2>
       <p>
         Soy un apasionado estudiante y desarrollador de sofware con la ambición

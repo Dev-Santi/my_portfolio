@@ -2,6 +2,7 @@
   --main-bg: #0f172a;
   --titles-clr: #e2e8f0e4;
   --text-clr: #94a3b8;
+  --text-special-clr: #ffffffdd;
   --hover: #55d3d5;
 }
 
@@ -40,11 +41,6 @@ p {
   word-spacing: 0.2rem;
 }
 
-span.special {
-  color: #ffffffdd;
-  font-weight: 500;
-}
-
 button {
   font-family: inherit;
   background-color: inherit;
@@ -60,6 +56,13 @@ button {
 
 button:hover {
   opacity: 1;
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--titles-clr);
+  font-weight: 600;
+  letter-spacing: -0.9px;
 }
 
 h2,

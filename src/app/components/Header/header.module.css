@@ -2,13 +2,6 @@
     color: white;
 }
 
-.title {
-    font-size: 4rem;
-    color: var(--titles-clr);
-    font-weight: 600;
-    letter-spacing: -0.9px;
-}
-
 .subtitle {
     margin-top: -0.2rem;
 }
@@ -98,7 +91,6 @@
     }
 
     .indice .active span {
-        width: 7rem;
-        color: red;
+        width: 8rem;
     }
 }
