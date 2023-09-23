@@ -1,6 +1,6 @@
 .special {
-    color: var(--text-special-clr);
-    font-weight: 500;
+    color: var(--ligth-white);
+    font-weight: 600;
 }
 
 .about {
@@ -9,7 +9,7 @@
 
 .about a {
     display: inline-block;
-    color: var(--hover);
+    color: var(--yellow);
     opacity: 0.6;
     transition: 0.2s;
 }

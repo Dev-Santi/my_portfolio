@@ -12,14 +12,14 @@ function Indices() {
   };
 
   const handleClick2 = () => {
-    window.scrollBy(0, 999);
+    window.scrollBy(0, 600);
   };
 
   const handleScroll = () => {
     setScroll(window.scrollY);
   };
 
-  //Como solo el segundo renderizado se realiza en el cliente, window no existe en el primero.
+  //Como solo el segundo renderizado se realiza en el cliente, el objeto window no existe en el primero.
   useEffect(() => {
     setSafeLoad(true);
   }, []);

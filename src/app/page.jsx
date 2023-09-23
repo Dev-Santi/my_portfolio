@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <main>
       <div>
-        <LigthPoint />
         <Header />
       </div>
       <div>

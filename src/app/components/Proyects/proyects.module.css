@@ -3,10 +3,9 @@
     flex-direction: column-reverse;
     gap: 1.8rem;
     padding: 1rem;
-    background-color: #ffffff02;
+    background-color: var(--white-transparent);
     border-radius: 2rem;
-    border-top: #ffffff00 1px solid;
-    opacity: 0.8;
+    opacity: 1;
     margin-top: 3rem;
 }
 
@@ -14,7 +13,6 @@
     max-width: 15rem;
     min-width: 10rem;
     border-radius: 1.2rem;
-    box-shadow: 0 0 0.5rem 0 rgba(255, 255, 255, 0.089);
 }
 
 .card>div {
@@ -30,7 +28,7 @@
 
 .card h3 {
     margin-top: 0;
-    color: var(--title-clr);
+    color: var(--light-grey);
     font-weight: 500;
     line-height: 2rem;
     display: flex;
@@ -40,14 +38,14 @@
 }
 
 .card:hover {
-    background-color: #ffffff09;
-    border-top: #ffffff13 1px solid;
-    box-shadow: 0 1rem 0.5rem 0rem rgba(0, 0, 0, 0.051);
+    background-color: #ffffff06;
+    box-shadow: 0 0.6rem 0rem 0rem rgba(0, 0, 0, 0.249);
     opacity: 1;
+    border-color: var(--yellow);
 }
 
 .card:hover h3 {
-    color: var(--hover);
+    color: var(--yellow);
 }
 
 .card:hover svg {
@@ -70,11 +68,10 @@
     margin-top: 1.5rem;
     width: fit-content;
     padding: 0.4rem 0.8rem;
-    background-color: #20494d9d;
-    color: var(--hover);
+    color: var(--white);
     font-size: 1.2rem;
     border-radius: 99rem;
-    text-shadow: 0 0 0.2rem rgba(100, 242, 255, 0.599);
+    transition: 0.3s;
 }
 
 .tools_container {
@@ -88,5 +85,12 @@
         flex-direction: row;
         transition: 0.2s;
         cursor: pointer;
+    }
+}
+
+@media(min-width: 64rem) {
+    .card {
+        background-color: transparent;
+        opacity: 0.8;
     }
 }

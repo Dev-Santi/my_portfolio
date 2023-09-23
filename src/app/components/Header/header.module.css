@@ -1,7 +1,3 @@
-.header {
-    color: white;
-}
-
 .subtitle {
     margin-top: -0.2rem;
 }
@@ -26,14 +22,13 @@
 
 .social svg {
     font-size: 2.2rem;
-    color: var(--text-clr);
+    color: var(--ligth-grey);
     transition: 0.2s;
 }
 
 .social a svg:hover {
     transform: scale(1.2);
-    color: var(--hover);
-    filter: drop-shadow(0 0rem 1rem #53d7d021);
+    color: var(--yellow);
 }
 
 #mail_icon {
@@ -77,12 +72,15 @@
         margin: 0;
     }
 
+    .indice ul li:not(.active) p:hover {
+        color: var(--yellow);
+    }
+
     .indice ul li span {
         display: block;
         height: 1px;
         width: 4rem;
-        background-color: var(--text-clr);
-
+        background-color: var(--ligth-grey);
         transition: 0.3s;
     }
 

@@ -1,9 +1,11 @@
 :root {
-  --main-bg: #0f172a;
-  --titles-clr: #e2e8f0e4;
-  --text-clr: #94a3b8;
-  --text-special-clr: #ffffffdd;
-  --hover: #55d3d5;
+  --yellow: #F4D644;
+  --grey: rgb(15 23 42);
+  --ligth-grey: rgb(148 163 184);
+  --white: #fff;
+  --ligth-white: #ffffffc8;
+  --white-transparent: #ffffff06;
+  --black: #000;
 }
 
 * {
@@ -13,8 +15,8 @@
 }
 
 html {
-  background-color: var(--main-bg);
-  color: #fff;
+  background-color: var(--grey);
+  color: var(--white);
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
@@ -35,7 +37,7 @@ a {
 p {
   margin-top: 1.6rem;
   font-size: 1.6rem;
-  color: var(--text-clr);
+  color: var(--ligth-grey);
   line-height: 2.4rem;
   width: 100%;
   word-spacing: 0.2rem;
@@ -49,7 +51,7 @@ button {
   cursor: pointer;
   font-size: 1.6rem;
   word-spacing: 0.2rem;
-  color: var(--hover);
+  color: var(--yellow);
   opacity: 0.6;
   transition: 0.2s;
 }
@@ -59,8 +61,8 @@ button:hover {
 }
 
 h1 {
-  font-size: 4rem;
-  color: var(--titles-clr);
+  font-size: 3.8rem;
+  color: var(--yellow);
   font-weight: 600;
   letter-spacing: -0.9px;
 }
@@ -68,7 +70,6 @@ h1 {
 h2,
 h3 {
   margin-top: 1rem;
-  color: var(--titles-clr);
   font-size: 2rem;
   font-weight: 500;
 }
@@ -90,6 +91,10 @@ h3 {
 }
 
 @media(min-width: 64rem) {
+  h1 {
+    font-size: 4.2rem;
+  }
+
   body {
     padding: 7.4rem 10rem;
   }
