@@ -39,9 +39,7 @@
 
 .card:hover {
     background-color: #ffffff06;
-    box-shadow: 0 0.6rem 0rem 0rem rgba(0, 0, 0, 0.249);
     opacity: 1;
-    border-color: var(--yellow);
 }
 
 .card:hover h3 {
