@@ -1,5 +1,5 @@
 import "./globals.css";
-import { poppins } from "./Fonts/Fonts";
+import { poppins } from "../Fonts/Fonts";
 
 export const metadata = {
   title: "Santiago Larrosa",
