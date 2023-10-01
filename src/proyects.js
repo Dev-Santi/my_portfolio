@@ -1,14 +1,14 @@
 export default [
   {
     id: "1",
-    title: "News Homepage",
+    title: "Single Page Portfolio",
     category: "Frontend Mentor",
-    description: "Proyecto de desafío proporcionado por Frontend Mentor.",
-    img: "/card_imgs/news_homepage.png",
+    description: "Portafolio web sencillo para un diseñador.",
+    img: "/card_imgs/portfolio.png",
     alt: "Ilustración de cómo se ve el sitio web en un dispositivo móvil y en una pc de escritorio.",
     tools: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Dev-Santi/challenges--News-Homepage",
-    website: "https://dev-santi.github.io/challenges--News-Homepage",
+    github: "https://github.com/Dev-Santi/challenges--Single-page-portfolio",
+    website: "https://dev-santi.github.io/challenges--Single-page-portfolio",
   },
   {
     id: "2",
@@ -25,17 +25,6 @@ export default [
   },
   {
     id: "3",
-    title: "Single Page Portfolio",
-    category: "Frontend Mentor",
-    description: "Portafolio web sencillo para un diseñador.",
-    img: "/card_imgs/portfolio.png",
-    alt: "Ilustración de cómo se ve el sitio web en un dispositivo móvil y en una pc de escritorio.",
-    tools: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Dev-Santi/challenges--Single-page-portfolio",
-    website: "https://dev-santi.github.io/challenges--Single-page-portfolio",
-  },
-  {
-    id: "4",
     title: "Skilled E-Learning",
     category: "Frontend Mentor",
     description:
@@ -45,5 +34,16 @@ export default [
     tools: ["HTML", "SASS"],
     github: "https://github.com/Dev-Santi/challenges--Skilled-elearning",
     website: "https://dev-santi.github.io/challenges--Skilled-elearning",
+  },
+  {
+    id: "4",
+    title: "News Homepage",
+    category: "Frontend Mentor",
+    description: "Proyecto de desafío proporcionado por Frontend Mentor.",
+    img: "/card_imgs/news_homepage.png",
+    alt: "Ilustración de cómo se ve el sitio web en un dispositivo móvil y en una pc de escritorio.",
+    tools: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Dev-Santi/challenges--News-Homepage",
+    website: "https://dev-santi.github.io/challenges--News-Homepage",
   },
 ];
