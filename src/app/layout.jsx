@@ -10,7 +10,16 @@ export const metadata = {
     },
   ],
   description:
-    "Desarrollador web y estudiante de ingeniería de sistemas en Universidad ORT",
+    "¡Bienvenido a mi portafolio web! Soy estudiante de Ingeniería en Sistemas en la Universidad ORT y desarrollador web independiente.",
+  keywords: [
+    "NextJs",
+    "SSR",
+    "React",
+    "Portafolio",
+    "Desarrollador web",
+    "Desarrollador de software",
+    "Estudiante",
+  ],
 };
 
 export default function RootLayout({ children }) {

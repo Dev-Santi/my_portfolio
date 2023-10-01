@@ -3,7 +3,7 @@
     flex-direction: column-reverse;
     gap: 1.8rem;
     padding: 1rem;
-    background-color: var(--white-transparent);
+    background-color: #ffffff03;
     border-radius: 2rem;
     opacity: 1;
     margin-top: 3rem;
@@ -28,7 +28,7 @@
 
 .card h3 {
     margin-top: 0;
-    color: var(--light-grey);
+    color: var(--text-color);
     font-weight: 500;
     line-height: 2rem;
     display: flex;
@@ -43,7 +43,7 @@
 }
 
 .card:hover h3 {
-    color: var(--yellow);
+    color: var(--highligth);
 }
 
 .card:hover .content svg {
@@ -72,11 +72,10 @@
 
 .card .img_container svg:hover {
     transform: scale(1.1);
-    color: var(--yellow);
+    color: var(--highligth);
 }
 
 .card h4 {
-    color: var(--text-clr);
     font-size: 1.2rem;
     font-weight: 400;
 }
@@ -84,10 +83,11 @@
 .tool_tag {
     margin-top: 1.5rem;
     width: fit-content;
-    padding: 0.4rem 0.8rem;
-    color: var(--white);
+    padding: 0.3rem 0.8rem;
+    color: var(--text-highligth);
     font-size: 1.2rem;
-    border-radius: 99rem;
+    border-radius: 0.5rem;
+    background-color: var(--transparent);
     transition: 0.3s;
 }
 
@@ -99,7 +99,8 @@
 
 @media(min-width: 40rem) {
     .card {
-        flex-direction: row;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
         transition: 0.2s;
         cursor: pointer;
     }

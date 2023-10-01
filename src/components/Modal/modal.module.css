@@ -3,9 +3,9 @@
 }
 
 .btn {
-    color: var(--white)
+    color: var(--text-highligth)
 }
 
 .btn:hover {
-    color: var(--yellow)
+    color: var(--highligth)
 }

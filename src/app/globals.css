@@ -1,32 +1,41 @@
-:root {
-  --yellow: #F4D644;
-  --grey: rgb(15 23 42);
-  --ligth-grey: rgb(148 163 184);
-  --white: #fff;
-  --ligth-white: #ffffffc8;
-  --white-transparent: #ffffff06;
-  --black: #000;
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+:root {
+  --bg-color: #0f172a;
+  --highligth: #F4D644;
+  --text-color: #94a3b8;
+  --text-highligth: #ffffffdb;
+  --transparent: #ffffff38;
+
+  --font-size-m: 1.6rem;
+  --font-size-l: 2rem;
+  --font-size-xl: 3.5rem;
+  --font-size-xxl: 4.2rem;
+
+  --font-svg: 2.4rem;
+
+  --font-weigth-m: 400;
+  --font-weigth-xl: 600;
+}
+
 html {
-  background-color: var(--grey);
-  color: var(--white);
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
 body {
-  max-width: 128rem;
-  margin: 0 auto;
-  padding: 4.6rem 2.4rem;
   display: grid;
   grid-template-columns: 1fr;
+  max-width: 128rem;
+
+  margin: 0 auto;
+  padding: 4.6rem 2.4rem;
 }
 
 a {
@@ -38,13 +47,35 @@ ul li {
   list-style-type: none;
 }
 
+h1 {
+  font-size: var(--font-size-xl);
+  color: var(--highligth);
+  font-weight: var(--font-weigth-xl);
+  letter-spacing: -0.9px;
+}
+
+h2,
+h3 {
+  margin-top: 1rem;
+  font-size: var(--font-size-l);
+  font-weight: 500;
+}
+
+h3 {
+  font-size: var(--font-size-m);
+}
+
 p {
   margin-top: 1.6rem;
-  font-size: 1.6rem;
-  color: var(--ligth-grey);
+  font-size: var(--font-size-m);
+  color: var(--text-color);
   line-height: 2.4rem;
   width: 100%;
   word-spacing: 0.2rem;
+}
+
+svg {
+  font-size: var(--font-svg);
 }
 
 button {
@@ -52,35 +83,12 @@ button {
   background-color: inherit;
   color: inherit;
   border: none;
-  cursor: pointer;
-  font-size: 1.6rem;
+  font-size: var(--font-size-m);
   word-spacing: 0.2rem;
-  color: var(--yellow);
+  color: var(--highligth);
   opacity: 0.6;
+  cursor: pointer;
   transition: 0.2s;
-}
-
-
-
-.buttons .button {
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  font-size: 1.4rem;
-  border: 1px solid rgba(255, 255, 255, 0.048);
-  letter-spacing: 0.1rem;
-  border-radius: 0.5rem;
-  padding: 0.4rem;
-  margin-top: 2rem;
-  transition: 0.2s;
-  color: var(--ligth-grey);
-  height: 3rem;
-  text-decoration: none;
-  gap: 1rem
-}
-
-.button:hover {
-  color: var(--yellow);
 }
 
 .buttons {
@@ -90,42 +98,46 @@ button {
   column-gap: 1.6rem;
 }
 
+.buttons .button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 3.5rem;
+  width: fit-content;
+  font-size: var(--font-size-m);
+  border: 1px solid var(--transparent);
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: 0.2s;
+  font-weight: var(--font-weigth-m);
+}
+
+.buttons .button:hover {
+  color: var(--highligth);
+}
+
 button:hover {
   opacity: 1;
 }
 
-h1 {
-  font-size: 3.5rem;
-  color: var(--yellow);
-  font-weight: 600;
-  letter-spacing: -0.9px;
-}
-
-h2,
-h3 {
-  margin-top: 1rem;
-  font-size: 1.8rem;
-  font-weight: 500;
-}
-
-h3 {
-  font-size: 1.6rem;
-}
-
 .sections_title {
   margin-top: 5rem;
-  margin-bottom: 2.5rem;
-  font-size: 1.8rem;
+  color: var(--text-highligth);
+  font-size: var(--font-size-l);
 }
 
 @media(min-width: 48rem) {
   h1 {
-    font-size: 3.8rem;
+    font-size: var(--font-size-xxl);
   }
 
   h2,
   h3 {
-    font-size: 2rem;
+    font-size: var(--font-size-l);
   }
 
   body {
@@ -135,7 +147,7 @@ h3 {
 
 @media(min-width: 64rem) {
   h1 {
-    font-size: 4.2rem;
+    font-size: var(--font-size-xxl);
   }
 
   body {

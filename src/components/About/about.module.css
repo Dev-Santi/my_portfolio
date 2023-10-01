@@ -1,21 +1,20 @@
-.special {
-    color: var(--ligth-white);
-    font-weight: 600;
-}
-
 .about {
     margin-bottom: 1rem;
 }
 
+.special,
 .about a {
-    display: inline-block;
+    color: var(--text-highligth);
+    font-weight: 600;
+}
+
+.about a {
     text-decoration: underline;
-    color: var(--ligth-white);
     transition: 0.2s;
 }
 
 .about a:hover {
-    color: var(--yellow);
+    color: var(--highligth);
 }
 
 @media(min-width: 64rem) {

@@ -7,7 +7,6 @@ function About() {
   return (
     <section id='about' className={style.about}>
       <h2 className='sections_title'>Sobre mí</h2>
-
       <p>
         Soy un apasionado estudiante y desarrollador de software con la ambición
         de superarse tanto a nivel profesional como personal.
@@ -49,7 +48,7 @@ function About() {
         sociales.
       </p>
       <div className='buttons'>
-        <a className='button a' href='/cv/cv_santiago_larrosa.pdf' download>
+        <a className='button' href='/cv/cv_santiago_larrosa.pdf' download>
           <span>CV</span>
           <BsDownload />
         </a>
