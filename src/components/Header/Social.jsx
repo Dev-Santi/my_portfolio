@@ -5,6 +5,7 @@ import {
   BsLinkedin,
   BsFillEnvelopeAtFill,
   BsWhatsapp,
+  BsDownload,
 } from "react-icons/bs";
 
 function Social() {

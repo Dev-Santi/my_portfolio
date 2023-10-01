@@ -9,13 +9,13 @@
 
 .about a {
     display: inline-block;
-    color: var(--yellow);
-    opacity: 0.6;
+    text-decoration: underline;
+    color: var(--ligth-white);
     transition: 0.2s;
 }
 
 .about a:hover {
-    opacity: 1;
+    color: var(--yellow);
 }
 
 @media(min-width: 64rem) {

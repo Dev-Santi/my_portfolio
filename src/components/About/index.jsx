@@ -22,7 +22,10 @@ function About() {
           CoderHouse
         </a>
         , en la cual aprendí a utilizar lenguajes y herramientas tales como{" "}
-        <Special>HTML, CSS, SASS, React , NodeJs, Express y MongoDB</Special>.
+        <Special>
+          HTML, CSS, JavaScript, SASS, React, NodeJs, Express y MongoDB
+        </Special>
+        .
       </p>
       <p>
         Mi experiencia desarrollando aplicaciones web ha sido principalmente en
