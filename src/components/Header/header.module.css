@@ -35,24 +35,7 @@
     font-size: 2.6rem;
 }
 
-.cv {
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    gap: 1rem;
-    font-size: 1.4rem;
-    border: 1px solid rgba(255, 255, 255, 0.048);
-    letter-spacing: 0.1rem;
-    border-radius: 0.5rem;
-    padding: 0.4rem;
-    margin: 2rem;
-    margin-inline: 0;
-    transition: 0.2s;
-}
 
-.cv:hover {
-    color: var(--yellow);
-}
 
 @media(min-width: 40rem) {
     .title {

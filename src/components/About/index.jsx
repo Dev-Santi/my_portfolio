@@ -1,10 +1,13 @@
+import { BsDownload } from "react-icons/bs";
 import Special from "./Special";
 import style from "./about.module.css";
+import Modal from "@/components/Modal";
 
 function About() {
   return (
     <section id='about' className={style.about}>
       <h2 className='sections_title'>Sobre mí</h2>
+
       <p>
         Soy un apasionado estudiante y desarrollador de software con la ambición
         de superarse tanto a nivel profesional como personal.
@@ -45,6 +48,22 @@ function About() {
         Ante cualquier consulta, no dudes en contactarme a través de mis redes
         sociales.
       </p>
+      <div className='buttons'>
+        <a className='button a' href='/cv/cv_santiago_larrosa.pdf' download>
+          <span>CV</span>
+          <BsDownload />
+        </a>
+        <Modal
+          src={"/certificates/web_developer.png"}
+          alt={"Certificado de curso Desarrollo Web"}
+          text={"Desarrollador Web 🎓"}
+        />
+        <Modal
+          src={"/certificates/javascript.png"}
+          alt={"Certificado de curso JavaScript"}
+          text={"JavaScript 🎓"}
+        />
+      </div>
     </section>
   );
 }

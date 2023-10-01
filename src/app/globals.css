@@ -60,6 +60,36 @@ button {
   transition: 0.2s;
 }
 
+
+
+.buttons .button {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-size: 1.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.048);
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  margin-top: 2rem;
+  transition: 0.2s;
+  color: var(--ligth-grey);
+  height: 3rem;
+  text-decoration: none;
+  gap: 1rem
+}
+
+.button:hover {
+  color: var(--yellow);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 1.6rem;
+}
+
 button:hover {
   opacity: 1;
 }
