@@ -17,8 +17,8 @@ function About() {
         <a href='https://www.utu.edu.uy/node/1426' target='_blank'>
           UTU - Villa Muñoz
         </a>
-        , luego me interesé por el desarrollo de software, y a comienzos de 2022
-        inicié la carrera de <Special>desarrollador Full Stack</Special> en la
+        ; luego me interesé por el desarrollo de software, y a comienzos de 2022
+        inicié la carrera de <Special>Desarrollador Full Stack</Special> en la
         academia{" "}
         <a href='https://www.coderhouse.com.uy/nosotros' target='_blank'>
           CoderHouse
@@ -36,7 +36,7 @@ function About() {
       </p>
       <p>
         Actualmente, me encuentro cursando la carrera de{" "}
-        <Special>ingeniería en sistemas</Special> en la{" "}
+        <Special>Ingeniería en Sistemas</Special> en la{" "}
         <a href='https://fi.ort.edu.uy/ingenieria-en-sistemas' target='_blank'>
           Universidad ORT
         </a>
