@@ -49,19 +49,9 @@ function About() {
       </p>
       <div className='buttons'>
         <a className='button' href='/cv/cv_santiago_larrosa.pdf' download>
-          <span>CV</span>
+          CV
           <BsDownload />
         </a>
-        <Modal
-          src={"/certificates/web_developer.png"}
-          alt={"Certificado de curso Desarrollo Web"}
-          text={"Desarrollador Web 🎓"}
-        />
-        <Modal
-          src={"/certificates/javascript.png"}
-          alt={"Certificado de curso JavaScript"}
-          text={"JavaScript 🎓"}
-        />
       </div>
     </section>
   );
