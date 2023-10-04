@@ -7,14 +7,6 @@ function Indices() {
   const [scroll, setScroll] = useState(0);
   const [safeLoad, setSafeLoad] = useState(false);
 
-  const handleClick1 = () => {
-    window.scrollBy(0, -999);
-  };
-
-  const handleClick2 = () => {
-    window.scrollBy(0, 600);
-  };
-
   const handleScroll = () => {
     setScroll(window.scrollY);
   };
@@ -35,19 +27,21 @@ function Indices() {
           className={
             safeLoad && scroll < window.innerHeight / 4 ? style.active : ""
           }
-          onClick={handleClick1}
         >
           <span></span>
-          <p>SOBRE MÍ</p>
+          <a href='#'>
+            <p>SOBRE MÍ</p>
+          </a>
         </li>
         <li
           className={
             safeLoad && scroll > window.innerHeight / 4 ? style.active : ""
           }
-          onClick={handleClick2}
         >
           <span></span>
-          <p>PROYECTOS</p>
+          <a href='#projects'>
+            <p>PROYECTOS</p>
+          </a>
         </li>
       </ul>
     </div>

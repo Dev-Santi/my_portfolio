@@ -1,4 +1,4 @@
-import style from "../proyects.module.css";
+import style from "../projects.module.css";
 import ToolTag from "./ToolTag";
 
 export default function Tools({ tools }) {
