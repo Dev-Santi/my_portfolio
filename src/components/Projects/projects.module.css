@@ -81,7 +81,6 @@
 }
 
 .tool_tag {
-    margin-top: 1.5rem;
     width: fit-content;
     padding: 0.3rem 0.8rem;
     color: var(--text-highligth);
@@ -92,6 +91,7 @@
 }
 
 .tools_container {
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
