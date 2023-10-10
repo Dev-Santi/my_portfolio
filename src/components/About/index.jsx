@@ -1,7 +1,7 @@
 import { BsDownload } from "react-icons/bs";
+import Link from "next/link";
 import Special from "./Special";
 import style from "./about.module.css";
-import Modal from "@/components/Modal";
 
 function About() {
   return (
@@ -14,15 +14,15 @@ function About() {
       <p>
         Obtuve el título de{" "}
         <Special>Bachiller en Administracion de Empresas</Special> en{" "}
-        <a href='https://www.utu.edu.uy/node/1426' target='_blank'>
+        <Link href='https://www.utu.edu.uy/node/1426' target='_blank'>
           UTU - Villa Muñoz
-        </a>
+        </Link>
         ; luego me interesé por el desarrollo de software, y a comienzos de 2022
         inicié la carrera de <Special>Desarrollador Full Stack</Special> en la
         academia{" "}
-        <a href='https://www.coderhouse.com.uy/nosotros' target='_blank'>
+        <Link href='https://www.coderhouse.com.uy/nosotros' target='_blank'>
           CoderHouse
-        </a>
+        </Link>
         , en la cual aprendí a utilizar lenguajes y herramientas tales como{" "}
         <Special>
           HTML, CSS, JavaScript, SASS, React, NodeJs, Express y MongoDB
@@ -37,22 +37,29 @@ function About() {
       <p>
         Actualmente, me encuentro cursando la carrera de{" "}
         <Special>Ingeniería en Sistemas</Special> en la{" "}
-        <a href='https://fi.ort.edu.uy/ingenieria-en-sistemas' target='_blank'>
+        <Link
+          href='https://fi.ort.edu.uy/ingenieria-en-sistemas'
+          target='_blank'
+        >
           Universidad ORT
-        </a>
+        </Link>
         , al mismo tiempo que continúo fortaleciendo mis habilidades en el
         desarrollo de aplicaciones web mediante la realización de proyectos.
       </p>
-      <p>
-        Ante cualquier consulta, no dudes en contactarme a través de mis redes
-        sociales.
-      </p>
-      <div className='buttons'>
-        <a className='button' href='/cv/cv_santiago_larrosa.pdf' download>
+      <p className={style.a}>
+        <span>
+          Ante cualquier consulta, no dudes en contactarme a través de mis redes
+          sociales.
+        </span>
+        <Link
+          id='download'
+          className='button'
+          href='/cv/cv_santiago_larrosa.pdf'
+        >
           CV
           <BsDownload />
-        </a>
-      </div>
+        </Link>
+      </p>
     </section>
   );
 }

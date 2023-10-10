@@ -78,10 +78,11 @@ svg {
   font-size: var(--font-svg);
 }
 
-.buttons .button {
+.button {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-inline: 5rem;
   height: 3.5rem;
   width: fit-content;
   font-size: 1.5rem;
@@ -96,7 +97,11 @@ svg {
   font-weight: var(--font-weigth-m);
 }
 
-.buttons .button:hover {
+#download {
+  text-decoration: none;
+}
+
+.button:hover {
   color: var(--highligth);
 }
 

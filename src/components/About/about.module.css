@@ -2,19 +2,26 @@
     margin-bottom: 1rem;
 }
 
-.special,
-.about a {
+.special {
     color: var(--text-highligth);
     font-weight: 600;
 }
 
 .about a {
     text-decoration: underline;
+    color: var(--text-color);
     transition: 0.2s;
+    font-weight: 600;
 }
 
 .about a:hover {
     color: var(--highligth);
+}
+
+.about p.a {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 @media(min-width: 64rem) {
