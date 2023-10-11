@@ -1,4 +1,5 @@
 .about {
+    font-weight: 400;
     margin-bottom: 1rem;
 }
 
@@ -7,22 +8,44 @@
     font-weight: 600;
 }
 
+.about p {
+    letter-spacing: 0.1rem;
+}
+
 .about a {
     text-decoration: underline;
     color: var(--text-color);
     transition: 0.2s;
-    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.25rem
+}
+
+#download {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    padding-inline: 1rem;
+    border: 1px solid;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+#download svg {
+    font-size: 1.8rem;
 }
 
 .about a:hover {
     color: var(--highligth);
 }
 
-.about p.a {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
 
 @media(min-width: 64rem) {
     .about {

@@ -8,7 +8,7 @@
   --bg-color: #0f172a;
   --highligth: #F4D644;
   --text-color: #94a3b8;
-  --text-highligth: #ffffffdb;
+  --text-highligth: #ffffffb0;
   --transparent: #ffffff38;
 
   --font-size-m: 1.6rem;
@@ -78,43 +78,15 @@ svg {
   font-size: var(--font-svg);
 }
 
-.button {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-inline: 5rem;
-  height: 3.5rem;
-  width: fit-content;
-  font-size: 1.5rem;
-  border: 1px solid var(--transparent);
-  letter-spacing: 0.1rem;
-  border-radius: 0.5rem;
-  padding: 1rem;
-  margin-top: 1rem;
-  text-decoration: none;
-  color: var(--text-color);
-  transition: 0.2s;
-  font-weight: var(--font-weigth-m);
-}
 
-#download {
-  text-decoration: none;
-}
-
-.button:hover {
-  color: var(--highligth);
-}
-
-.button svg {
-  font-size: 1.6rem;
-}
 
 button:hover {
   opacity: 1;
 }
 
 .sections_title {
-  margin-top: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
   color: var(--text-highligth);
   font-size: var(--font-size-l);
 }

@@ -46,20 +46,18 @@ function About() {
         , al mismo tiempo que continúo fortaleciendo mis habilidades en el
         desarrollo de aplicaciones web mediante la realización de proyectos.
       </p>
-      <p className={style.a}>
-        <span>
-          Ante cualquier consulta, no dudes en contactarme a través de mis redes
-          sociales.
-        </span>
-        <Link
-          id='download'
-          className='button'
-          href='/cv/cv_santiago_larrosa.pdf'
-        >
-          CV
+      <div className={style.container}>
+        <p>
+          <span>
+            Ante cualquier consulta, no dudes en contactarme a través de mis
+            redes sociales.
+          </span>
+        </p>
+        <Link id={style.download} href='/cv/cv_santiago_larrosa.pdf'>
+          <span>CV</span>
           <BsDownload />
         </Link>
-      </p>
+      </div>
     </section>
   );
 }

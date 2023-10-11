@@ -1,3 +1,7 @@
+.header {
+    margin-bottom: 10rem;
+}
+
 .subtitle {
     margin-top: -0.2rem;
 }
@@ -47,6 +51,7 @@
         flex-direction: column;
         justify-content: space-between;
         height: calc(100vh - 12rem);
+        margin-bottom: 0rem;
     }
 
     .indice {
