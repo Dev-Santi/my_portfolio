@@ -10,7 +10,7 @@ export const metadata = {
     },
   ],
   description:
-    "¡Bienvenido a mi portafolio web! Soy estudiante de Ingeniería en Sistemas en la Universidad ORT y desarrollador web independiente.",
+    "Estudiante de ingeniería en sistemas que ofrece servicios como desarrollador web.",
   keywords: [
     "NextJs",
     "SSR",
@@ -19,6 +19,7 @@ export const metadata = {
     "Desarrollador web",
     "Desarrollador de software",
     "Estudiante",
+    "Developer",
   ],
 };
 

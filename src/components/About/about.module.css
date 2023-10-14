@@ -8,10 +8,6 @@
     font-weight: 600;
 }
 
-.about p {
-    letter-spacing: 0.1rem;
-}
-
 .about a {
     text-decoration: underline;
     color: var(--text-color);
