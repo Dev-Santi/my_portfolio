@@ -3,7 +3,7 @@ export default [
     id: "0",
     title: "Portafolio para Fotógrafos",
     description:
-      "Portafolio web completo para fotógrafos y/o diseñadores que deseen tener su propio espacio para mostrar su trabajo.",
+      "Galería web completa para fotógrafos y/o diseñadores que deseen tener su propio espacio para mostrar su trabajo.",
     img: "/card_imgs/portfolio_photo.png",
     alt: "Ilustración de cómo se ve el sitio web en una notebook.",
     tools: ["NextJs", "Tailwind", "Vercel"],
