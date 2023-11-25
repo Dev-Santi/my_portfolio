@@ -1,9 +1,9 @@
 export default [
   {
     id: "5",
-    title: "Embellecimiento de las uñas 💅",
+    title: "Estetica y bienestar 💅",
     description:
-      "Espacio web donde poder mostrar una galería de fotos, reviews, catálogos e información de contacto.",
+      "Espacio web para gente que se dedica al cuidado de las uñas, donde poder mostrar una galería de fotos, reviews, catálogos e información de contacto.",
     img: "/card_imgs/manicura_site.png",
     alt: "Ilustración de cómo se ve el sitio web en una notebook.",
     tools: ["NextJs", "Tailwind", "Vercel"],
