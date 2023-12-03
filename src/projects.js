@@ -1,12 +1,23 @@
 export default [
   {
+    id: "6",
+    title: "Restaurante",
+    description:
+      "Aplicación web para un restaurante, con la funcionalidad de poder hacer reservas desde el sitio o descargar el menu del día.",
+    img: "/card_imgs/restaurant.png",
+    alt: "Ilustración de cómo se ve el sitio web en una notebook.",
+    tools: ["Next.js", "Node.js", "Tailwind", "Vercel"],
+    github: "https://github.com/Dev-Santi/Restaurant-next.js",
+    website: "https://rest-dev-santi.vercel.app/",
+  },
+  {
     id: "5",
     title: "Estetica y bienestar 💅",
     description:
       "Espacio web para gente que se dedica al cuidado de las uñas, donde poder mostrar una galería de fotos, reviews, catálogos e información de contacto.",
     img: "/card_imgs/manicura_site.png",
     alt: "Ilustración de cómo se ve el sitio web en una notebook.",
-    tools: ["NextJs", "Tailwind", "Vercel"],
+    tools: ["Next.js", "Tailwind", "Vercel"],
     github: "https://github.com/Dev-Santi/manicura-site",
     website: "https://manicura-site.vercel.app/",
   },
@@ -17,7 +28,7 @@ export default [
       "Galería web completa para fotógrafos y/o diseñadores que deseen tener su propio espacio para mostrar su trabajo.",
     img: "/card_imgs/portfolio_photo.png",
     alt: "Ilustración de cómo se ve el sitio web en una notebook.",
-    tools: ["NextJs", "Tailwind", "Vercel"],
+    tools: ["Next.js", "Tailwind", "Vercel"],
     github: "https://github.com/Dev-Santi/photographer_portfolio",
     website: "https://photographer-portfolio-smoky.vercel.app/",
   },
