@@ -6,7 +6,7 @@ export default [
       "Aplicación web para un taller de mecánicos. Muestra de servicios, métodos de contacto a través de api, google maps.",
     img: "/card_imgs/taller.png",
     alt: "Ilustración de cómo se ve el sitio web en una notebook.",
-    tools: ["Next.js", "Node.js", "Tailwind", "Vercel", "Animate.css"],
+    tools: ["Next.js", "Node.js", "Tailwind", "Vercel", "Animate.css", "Maps"],
     github: "https://github.com/Dev-Santi/Taller-mec-nico-Next.js",
     website: "https://taller-mecanico-next-js.vercel.app/",
   },
