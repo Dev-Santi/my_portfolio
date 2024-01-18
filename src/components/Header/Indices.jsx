@@ -1,51 +1,40 @@
-"use client";
-
-import { useState, useEffect } from "react";
 import style from "./header.module.css";
+import { useState, useEffect } from "react";
 
 function Indices() {
-  const [scroll, setScroll] = useState(0);
-  const [safeLoad, setSafeLoad] = useState(false);
+    const [scroll, setScroll] = useState(0);
 
-  const handleScroll = () => {
-    setScroll(window.scrollY);
-  };
+    function updateScroll() {
+        setScroll(window.scrollY);
+    }
 
-  //Como solo el segundo renderizado se realiza en el cliente, el objeto window no existe en el primero.
-  useEffect(() => {
-    setSafeLoad(true);
-  }, []);
+    useEffect(() => {
+        window.addEventListener("scroll", updateScroll);
 
-  if (safeLoad) {
-    window.addEventListener("scroll", handleScroll);
-  }
+        //Al desmontarse el componente, se elimina el evento para no generar un loop
+        return function () {
+            window.removeEventListener("scroll", updateScroll);
+        };
+    }, []);
 
-  return (
-    <div className={style.indice}>
-      <ul>
-        <li
-          className={
-            safeLoad && scroll < window.innerHeight / 4 ? style.active : ""
-          }
-        >
-          <span></span>
-          <a href='#'>
-            <p>SOBRE MÍ</p>
-          </a>
-        </li>
-        <li
-          className={
-            safeLoad && scroll > window.innerHeight / 4 ? style.active : ""
-          }
-        >
-          <span></span>
-          <a href='#projects'>
-            <p>PROYECTOS</p>
-          </a>
-        </li>
-      </ul>
-    </div>
-  );
+    return (
+        <div className={style.indice}>
+            <ul>
+                <li className={scroll <= 350 ? style.active : ""}>
+                    <span></span>
+                    <a href="#">
+                        <p>SOBRE MÍ</p>
+                    </a>
+                </li>
+                <li className={scroll > 350 ? style.active : ""}>
+                    <span></span>
+                    <a href="#projects">
+                        <p>PROYECTOS</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    );
 }
 
 export default Indices;

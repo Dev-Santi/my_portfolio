@@ -15,7 +15,7 @@
     border-radius: 1.2rem;
 }
 
-.card>div {
+.card > div {
     display: flex;
     flex-direction: column;
 }
@@ -98,16 +98,15 @@
     gap: 1rem;
 }
 
-@media(min-width: 40rem) {
+@media (min-width: 40rem) {
     .card {
         flex-direction: row-reverse;
         justify-content: flex-end;
         transition: 0.2s;
-        cursor: pointer;
     }
 }
 
-@media(min-width: 64rem) {
+@media (min-width: 64rem) {
     .card {
         background-color: transparent;
         opacity: 0.8;
