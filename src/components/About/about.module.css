@@ -3,6 +3,10 @@
     margin-bottom: 1rem;
 }
 
+.about h2 {
+    margin-bottom: 1rem;
+}
+
 .special {
     color: var(--text-highligth);
     font-weight: 600;
@@ -17,7 +21,7 @@
 .container {
     display: flex;
     align-items: flex-end;
-    gap: 1.25rem
+    gap: 1.25rem;
 }
 
 #download {
@@ -42,8 +46,7 @@
     color: var(--highligth);
 }
 
-
-@media(min-width: 64rem) {
+@media (min-width: 64rem) {
     .about {
         margin-bottom: 6rem;
     }
