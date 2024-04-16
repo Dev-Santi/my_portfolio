@@ -10,23 +10,27 @@ import {
 function Social() {
     return (
         <div className={style.social}>
-            <a id="githubTest" href="https://github.com/Dev-Santi" target="_blank">
+            <a data-testid="github" href="https://github.com/Dev-Santi" target="_blank">
                 <BsGithub />
             </a>
             <a
-                id="linkedinTest"
+                data-testid="linkedin"
                 href="https://www.linkedin.com/in/santiago-larrosa-bauz%C3%A1-99b740251/"
                 target="_blank"
             >
                 <BsLinkedin />
             </a>
-            <a id="emailTest" href="mailto:bauzalarrosasantiago@gmail.com" target="_blank">
+            <a data-testid="email" href="mailto:bauzalarrosasantiago@gmail.com" target="_blank">
                 <BsFillEnvelopeAtFill id={style.mail_icon} />
             </a>
-            <a id="instagramTest" href="https://www.instagram.com/santii.larrosa/" target="_blank">
+            <a
+                data-testid="instagram"
+                href="https://www.instagram.com/santii.larrosa/"
+                target="_blank"
+            >
                 <BsInstagram />
             </a>
-            <a id="whatsappTest" href="https://wa.me/+59897111899" target="_blank">
+            <a data-testid="whatsapp" href="https://wa.me/+59897111899" target="_blank">
                 <BsWhatsapp />
             </a>
         </div>
