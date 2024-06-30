@@ -1,5 +1,16 @@
 export default [
     {
+        id: "9",
+        title: "C&K Estudio de Danza",
+        description:
+            "Trabajo freeLance - Sitio web desarrollado para una escuela de danza",
+        img: "/card_imgs/CYK.png",
+        alt: "Ilustración de cómo se ve el sitio web en una notebook.",
+        tools: ["HTML", "CSS", "Vanilla JS", "Github Pages", "Hostinger"],
+        github: "https://github.com/Dev-Santi/C-Y-K-Escuela",
+        website: "https://www.cykestudiodedanza.com",
+    },
+    {
         id: "8",
         title: "Justo a Tiempo",
         description:
