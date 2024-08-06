@@ -32,8 +32,8 @@ export default function Home() {
                     <Header />
                 </section>
                 <aside>
-                    <About />
                     <Projects />
+                    <About />
                 </aside>
             </main>
         </body>

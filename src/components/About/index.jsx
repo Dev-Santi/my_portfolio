@@ -8,21 +8,20 @@ function About() {
         <section id='about' className={style.about}>
             <h2 className='sections_title'>Sobre mí</h2>
             <p>
-                ¡Hola! 👋 Mi nombre es Santiago, soy un desarrollador de software que se
-                especializa en el campo del desarrollo web. Me dedico a estudiar las últimas
-                tendencias y tecnologías, siempre en búsqueda de mejorar mis habilidades y
-                ofrecer soluciones innovadoras.
+                ¡Hola! 👋 Soy Santiago, un desarrollador de software especializado 
+                en la creación de sitios web modernos y eficientes.
             </p>
             <p>
-                Además, me desempeño como desarrollador web independiente, llevando a cabo
-                proyectos que desafían mi creatividad y conocimientos 💻✨.
-            </p>
-            <p>
-                También me encuentro cursando la carrera de{' '}
-                <Special>Ingeniería en Sistemas</Special> en la{' '}
+                Actualmente, trabajo como desarrollador en la organización benéfica Inkua 
+                y estoy cursando la carrera de {" "}
+                <Special>Ingeniería en Sistemas</Special> en la {' '}
                 <Link href='https://fi.ort.edu.uy/ingenieria-en-sistemas' target='_blank'>
-                    Universidad ORT
+                    Universidad ORT.
                 </Link>
+            </p>
+            <p>
+                Además, me desempeño como desarrollador web independiente, gestionando proyectos que me permiten aplicar 
+                y expandir mis habilidades técnicas y creativas 💻.
             </p>
             <div className={style.container}>
                 <p>

@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 function Indices() {
     const [scroll, setScroll] = useState(0);
 
+    console.log(scroll);
+
     function updateScroll() {
         setScroll(window.scrollY);
     }
@@ -20,16 +22,16 @@ function Indices() {
     return (
         <div className={style.indice}>
             <ul>
-                <li className={scroll <= 350 ? style.active : ""}>
+                <li className={scroll <= 1000 ? style.active : ""}>
                     <span></span>
                     <a href="#">
-                        <p>SOBRE MÍ</p>
+                        <p>PROYECTOS</p>
                     </a>
                 </li>
-                <li className={scroll > 350 ? style.active : ""}>
+                <li className={scroll > 1000 ? style.active : ""}>
                     <span></span>
-                    <a href="#projects">
-                        <p>PROYECTOS</p>
+                    <a href="#about">
+                        <p>SOBRE MÍ</p>
                     </a>
                 </li>
             </ul>

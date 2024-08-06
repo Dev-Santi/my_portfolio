@@ -6,7 +6,7 @@ export default [
             "Trabajo freeLance - Sitio web desarrollado para una escuela de danza",
         img: "/card_imgs/CYK.png",
         alt: "Ilustración de cómo se ve el sitio web en una notebook.",
-        tools: ["HTML", "CSS", "Vanilla JS", "Github Pages", "Hostinger"],
+        tools: ["HTML", "CSS", "Vanilla JS", "Github Pages"],
         github: "https://github.com/Dev-Santi/C-Y-K-Escuela",
         website: "https://www.cykestudiodedanza.com",
     },
