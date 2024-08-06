@@ -4,12 +4,9 @@ import { useState, useEffect } from "react";
 function Indices() {
    const [scroll, setScroll] = useState(0);
 
-   console.log(scroll);
-
    function updateScroll() {
       setScroll(window.scrollY);
    }
-   setScroll(window.scrollY);
 
    useEffect(() => {
       window.addEventListener("scroll", updateScroll);
