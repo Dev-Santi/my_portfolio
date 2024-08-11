@@ -8,7 +8,7 @@
     /* --bg-color: #0f172a; */
     --bg-color: #0a111f;
     --highligth: #f4d644;
-    --text-color: #94a3b8;
+    --text-color: #c7d3e2;
     --text-highligth: #ffffffb0;
     --transparent: #ffffff38;
 
@@ -24,7 +24,10 @@
 }
 
 html {
+    background: url("/wallpaper.png");
+    background-attachment: fixed;
     background-color: var(--bg-color);
+
     color: var(--text-color);
     font-size: 62.5%;
     scroll-behavior: smooth;
