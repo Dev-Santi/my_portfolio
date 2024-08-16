@@ -21,7 +21,7 @@ function Social() {
          >
             <BsFillEnvelopeAtFill id={style.mail_icon} />
          </a>
-         <a data-testid="instagram" href="https://www.instagram.com/santii.larrosa/" target="_blank">
+         <a data-testid="instagram" href="https://www.instagram.com/web_montevideo/" target="_blank">
             <BsInstagram />
          </a>
          <a data-testid="whatsapp" href="https://wa.me/+59897111899" target="_blank">
