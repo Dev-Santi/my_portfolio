@@ -7,10 +7,11 @@
 :root {
     /* --bg-color: #0f172a; */
     --bg-color: #0a111f;
-    --highligth: #f4d644;
+    --highligth: #00aeef;
+    --highligth-trans: #00afef6e;
     --text-color: #c7d3e2;
     --text-highligth: #ffffffb0;
-    --transparent: #ffffff38;
+    --transparent: #ffffff15;
 
     --font-size-m: 1.6rem;
     --font-size-l: 2rem;
@@ -24,11 +25,8 @@
 }
 
 html {
-    background: url("/wallpaper.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-color: var(--bg-color);
+    background: linear-gradient( #0a111f 0%, #121f38 33%, #264583 100%); 
 
     color: var(--text-color);
     font-size: 62.5%;

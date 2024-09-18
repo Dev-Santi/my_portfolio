@@ -43,6 +43,11 @@
     opacity: 1;
 }
 
+.card:hover .tool_tag {
+    background-color: var(--highligth-trans);
+    color: white;
+}
+
 .card:hover h3 {
     color: var(--highligth);
 }
