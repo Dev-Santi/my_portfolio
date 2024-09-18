@@ -14,11 +14,7 @@ function Social() {
          >
             <BsLinkedin />
          </a>
-         <a
-            data-testid="email"
-            href="mailto:info@santiagolarrosa.tech?subject=Asesoramiento.&body=Mi consulta es la siguiente: "
-            target="_blank"
-         >
+         <a data-testid="email" href="mailto:info@santiagolarrosa.tech?subject=Consulta " target="_blank">
             <BsFillEnvelopeAtFill id={style.mail_icon} />
          </a>
          <a data-testid="instagram" href="https://www.instagram.com/web_montevideo/" target="_blank">

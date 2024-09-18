@@ -1,14 +1,19 @@
-.header {
-    margin-bottom: 10rem;
+.header h1 a {
+    display: block;
+    font-size: 1.25rem;
+    color: gray;
+    margin-bottom: 1rem;
+    text-decoration: underline;
 }
 
 .subtitle {
-    margin-top: -0.2rem;
+    margin-top: 2rem;
 }
 
 .description {
     max-width: 32rem;
     word-spacing: 0rem;
+    margin-top: 0.5rem;
 }
 
 .indice {
@@ -20,7 +25,7 @@
     align-items: center;
     gap: 2.2rem;
     width: fit-content;
-    margin-top: 3.4rem;
+    margin-top: 2rem;
     padding-inline: 0.2rem;
 }
 
