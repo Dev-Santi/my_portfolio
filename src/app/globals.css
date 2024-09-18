@@ -26,7 +26,7 @@
 
 html {
     background-color: var(--bg-color);
-    background: linear-gradient( #0a111f 0%, #121f38 33%, #264583 100%); 
+    background: linear-gradient( #0a111f 0%, #121f38 33%, #1c3361 100%); 
 
     color: var(--text-color);
     font-size: 62.5%;
@@ -58,6 +58,10 @@ h1 {
     color: var(--highligth);
     font-weight: var(--font-weigth-xl);
     letter-spacing: -0.9px;
+}
+
+h1 a:hover {
+    color: var(--highligth-trans) !important;
 }
 
 h2,
